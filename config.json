@@ -1,0 +1,219 @@
+{
+  "uiConfig": {
+    "globalTitle_intro": "Global Intro Title",
+    "primaryColor_intro": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "secondaryColor_intro": {
+      "r": 100,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "copyrightText_intro": "Copyright Doctrinis 2022",
+    "logoFile_intro": "Logo.png",
+    "logoPadding_intro": 10,
+    "globalTitle": "Global Title",
+    "primaryColor": {
+      "r": 150,
+      "g": 50,
+      "b": 50,
+      "a": 1
+    },
+    "secondaryColor": {
+      "r": 50,
+      "g": 50,
+      "b": 150,
+      "a": 1
+    },
+    "copyrightText": "Copyright Doctrinis 2022",
+    "logoFile": "Logo.png",
+    "logoPadding": 10,
+    "introImage": "Intro.png",
+    "introText": "Welcome to the module\nThis is the intro page!",
+    "windowWidth": 1250,
+    "windowHeight": 850,
+    "lockWindow": false,
+    "thankYouText": "Thank you for your participation!",
+    "presentationLink": "",
+    "presentationText": "Review Presentation",
+    "reviewEmbeddedSlides": true,
+    "reviewIntroText": "The following questions were not answered correctly on your tests.\nTake note of the ones incorrect so that you can further review the training material.",
+    "toRecipients": [
+      {
+        "name": "Bob Sampleton",
+        "email": "bob.sample@somerandomdomain.com"
+      },
+      {
+        "name": "Jim Dandy",
+        "email": "jim.dandy@someotherdomain.com"
+      }
+    ],
+    "ccRecipients": [
+    ],
+    "summaryEnabled": true,
+    "helpTitle": "For Application Help:",
+    "helpContent": "Please view the project documentation at\nhttps://github.com/doctrinis/doctrinis",
+    "debug": false
+  },
+  "fontConfig": {
+    "fontName": "",
+    "mainFontSize": 18,
+    "headingFontSize": 20,
+    "titleBarFontSize": 36,
+    "copyrightFontSize": 8,
+    "questionFontSize": 18,
+    "questionTitleFontSize": 24
+  },
+  "test": {
+    "name": "This is the test module",
+    "description": "Select the best answer.\nOnce you begin the test you can exit however, you will have to restart from the beginning.\nYou may go back and change answers within the test.\nAlso note that to successfully pass the test you must complete the Post-Test with a score of 80% or greater.\nThe Pre-test can be failed as it is only used to establish a baseline score.",
+    "confirmationText": "To confirm your test, click on the 'Next' button in the bottom right.",
+    "timeLimit": 120,
+    "displayQuestionTitles": false,
+    "questionPool": [
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q1",
+        "instructions": "What is 1+1?",
+        "imageFile": "",
+        "correctOption": "A",
+        "options": {
+          "A": "2",
+          "B": "42",
+          "C": "3",
+          "D": "None of the above"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q2",
+        "instructions": "What is the ultimate answer to life, the universe, and everything?",
+        "imageFile": "",
+        "correctOption": "D",
+        "options": {
+          "A": "Wombats",
+          "B": "12",
+          "C": "Nobody knows",
+          "D": "42",
+          "E": "None of the above"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q2",
+        "instructions": "What color is the sky?",
+        "imageFile": "",
+        "correctOption": "B",
+        "options": {
+          "A": "Red",
+          "B": "Blue",
+          "C": "Green",
+          "D": "Yellow"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q2",
+        "instructions": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+        "imageFile": "",
+        "correctOption": "C",
+        "options": {
+          "A": "5",
+          "B": "2 Cords",
+          "C": "About 700lbs"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q2",
+        "instructions": "What kind of stuff should be on slides?",
+        "imageFile": "",
+        "correctOption": "C",
+        "options": {
+          "A": "Children",
+          "B": "Water",
+          "C": "Important Stuff",
+          "D": "Nothing"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Q3",
+        "instructions": "How many fingers am I holding up?",
+        "imageFile": "",
+        "correctOption": "A",
+        "options": {
+          "A": "What fingers?",
+          "B": "There is no spoon...",
+          "C": "It's a butterfly!"
+        }
+      }
+    ],
+    "questionCount": 4,
+    "passingScore": 0.80
+  },
+  "training": {
+    "jsonClass": "ImageTraining",
+    "name": "Training Slides",
+    "instructions": "Please carefully review the following presentation. The Post-Test will be issued once completed.",
+    "imageHeight": 650,
+    "imageWidth": 1180,
+    "imageFiles": [
+      "Slide1.png",
+      "Slide2.png"
+    ]
+  },
+  "certificate": {
+    "name": "Sample Training Module",
+    "baseImageFile": "Certificate.png",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "appDisplayScale": 0.8,
+    "fontName": "Arial",
+    "emailSubject": "Sample Training Module",
+    "showExamName": true,
+    "nameFontSize": 50,
+    "score2FontSize": 24,
+    "generalFontSize": 24,
+    "forFontSize": 26,
+    "dateFontSize": 18,
+    "fontColor": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "testNamePos": {
+      "x": 400,
+      "y": 175
+    },
+    "forLinePos": {
+      "x": 400,
+      "y": 380
+    },
+    "namePos": {
+      "x": 400,
+      "y": 280
+    },
+    "score1Pos": {
+      "x": 400,
+      "y": 390
+    },
+    "score2Pos": {
+      "x": 400,
+      "y": 325
+    },
+    "improvementPos": {
+      "x": 400,
+      "y": 425
+    },
+    "datePos": {
+      "x": 400,
+      "y": 520
+    }
+  }
+}
